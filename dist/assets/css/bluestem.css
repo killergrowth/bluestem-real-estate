@@ -302,6 +302,7 @@ section { padding: 80px 0; }
 .kg-contact-split { display: grid; gap: 48px; align-items: center; }
 @media(min-width:900px) { .kg-contact-split { grid-template-columns: 1fr 1fr; } }
 .kg-contact-split-img { border-radius: 10px; overflow: hidden; box-shadow: var(--kg-shadow); }
+@media(min-width:900px) { .kg-contact-split-img { order: 2; } }
 .kg-contact-split-img img { width: 100%; object-fit: cover; aspect-ratio: 4/5; }
 
 /* ===== Footer Banner ===== */
