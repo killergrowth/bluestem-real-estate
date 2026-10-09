@@ -263,8 +263,10 @@ section { padding: 80px 0; }
 .kg-icon-grid { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .kg-icon-item { display: flex; flex-direction: column; gap: 6px; }
 .kg-icon-item .kg-icon-glyph { font-size: 1.8rem; color: var(--kg-secondary); margin-bottom: 4px; }
-.kg-icon-item h4 { color: #fff; font-size: 1.02rem; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 4px; }
-.kg-icon-item p { color: rgba(255,255,255,0.72); font-size: 0.9rem; margin: 0; }
+.kg-icon-item h4 { color: var(--kg-primary); font-size: 1.02rem; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 4px; }
+.kg-icon-item p { color: var(--kg-text-light); font-size: 0.9rem; margin: 0; }
+.section-dark .kg-icon-item h4 { color: #fff; }
+.section-dark .kg-icon-item p { color: rgba(255,255,255,0.72); }
 
 /* ===== Land Analysis split w/ bg image ===== */
 .kg-land-split { display: grid; gap: 0; border-radius: 10px; overflow: hidden; box-shadow: var(--kg-shadow); }
