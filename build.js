@@ -13,7 +13,7 @@ const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
 const PARTIALS_DIR = path.join(ROOT, '_partials');
 
-const SKIP_DIRS = new Set(['node_modules', '.git', 'dist', '_partials', 'client-photos', '.github']);
+const SKIP_DIRS = new Set(['node_modules', '.git', 'dist', '_partials', 'client-photos', '.github', 'generated']);
 const SKIP_FILES = new Set(['_build-data.js', 'build.js', 'package.json', 'package-lock.json', '.gitignore', '.gitkeep']);
 
 function readPartial(name) {
