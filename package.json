@@ -1,0 +1,9 @@
+{
+  "name": "bluestem-real-estate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bluestem Real Estate and Land — PKG001 manual build",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
